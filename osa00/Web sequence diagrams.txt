@@ -6,7 +6,7 @@ fullstack-exampleapp.herokuapp.com/notes
 end note
 selain->palvelin: GET fullstack-exampleapp.herokuapp.com/notes
 note left of palvelin
-  Hakee sivun hmtl:n, json datan, javascript koodin sekä css-tyylitiedoston
+  Hakee sivun hmtl:n, json datan, javascript koodin seka css-tyylitiedoston
 end note
 palvelin->selain: status 200, sivun HTML-koodi
 
@@ -20,9 +20,9 @@ selain->palvelin: https://fullstack-exampleapp.herokuapp.com/data.json
 palvelin->selain: status 200, muistiinpanot JSON-muodossa
 
 note left of selain
- selain näyttää palvelimen palauttaman HTML:n 
+ selain nayttaa palvelimen palauttaman HTML:n 
  ja javascriptin json datasta muodostaman muistiinpanolistan. 
- Näiden ulkoasua on määritelty CSS-tyylitiedostossa
+ Naiden ulkoasua on maaritelty CSS-tyylitiedostossa
  
 end note
 
@@ -39,7 +39,7 @@ note left of palvelin
   Postaa uuden muistiinpanon palvelimelle ja 
   uudelleenohjaa /notes osoitteeseen
 end note
-palvelin->selain: status 302, uudelleenohjauspyyntö location /notes
+palvelin->selain: status 302, uudelleenohjauspyynto location /notes
 
 
 selain->palvelin: GET fullstack-exampleapp.herokuapp.com/notes
@@ -56,9 +56,9 @@ selain->palvelin: https://fullstack-exampleapp.herokuapp.com/data.json
 palvelin->selain: status 200, muistiinpanot JSON-muodossa
 
 note left of selain
- selain näyttää palvelimen palauttaman HTML:n 
+ selain nayttaa palvelimen palauttaman HTML:n 
  ja javascriptin json datasta muodostaman muistiinpanolistan. 
- Näiden ulkoasua on määritelty CSS-tyylitiedostossa
+ Naiden ulkoasua on maaritelty CSS-tyylitiedostossa
  
 end note
 
@@ -86,9 +86,9 @@ selain->palvelin: https://fullstack-exampleapp.herokuapp.com/data.json
 palvelin->selain: status 200, muistiinpanot JSON-muodossa
 
 note left of selain
- selain näyttää palvelimen palauttaman HTML:n 
+ selain nayttaa palvelimen palauttaman HTML:n 
  ja javascriptin json datasta muodostaman muistiinpanolistan. 
- Näiden ulkoasua on määritelty CSS-tyylitiedostossa
+ Naiden ulkoasua on maaritelty CSS-tyylitiedostossa
  
 end note
 
@@ -108,4 +108,7 @@ palvelin->selain: status 201, Created
 
 
 note left of selain
-Näyttää käyttäjälle alkuperäisen sivun ja uuden muistiinpanon
+Nayttaa kayttajalle alkuperaisen sivun ja uuden muistiinpanon
+
+
+-tomi
